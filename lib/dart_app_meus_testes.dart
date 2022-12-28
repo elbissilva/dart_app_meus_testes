@@ -12,4 +12,11 @@ double caulcularDesconto (double valor, double desconto, bool porcentagem) {
     return valor - ( valor * desconto )/ 100;
   }
   return valor - desconto;
+
+}
+String converter (String texto){
+  return texto.toUpperCase();
+}
+double retornaValor(double numero){
+  return 50;
 }
